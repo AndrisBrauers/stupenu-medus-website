@@ -1,0 +1,33 @@
+{
+  "tool": "Built-in image_gen.imagegen; no API/CLI fallback used",
+  "status": "Temporary AI-prepared prototype cutouts, not exact photographic reproductions. Replace with approved product photography before launch.",
+  "assets": [
+    {
+      "savedPaths": [
+        "public/products/ziedu-medus.png",
+        "public/products/ziedu-medus.webp"
+      ],
+      "product": "Medus",
+      "sources": [
+        "public/photos/IMG_1898.HEIC",
+        "public/brand/Etiketes_Stupenu_medus-visi_izmeri (1) (1).pdf",
+        "public/brand/Stupēnu medus (1).png"
+      ],
+      "note": "An initial background-extraction pass altered label text. The final edit reapplied the supplied label artwork. The generated lid artwork and small print are not pixel-exact originals.",
+      "finalPrompt": "Use case: compositing. Edit target image 1 is an isolated physical plastic honey tub; supporting insert image 2 is the EXACT REAL printed wrap label artwork; image 3 is exact real logo. Correct ONLY the printed label of image 1. Its generated label has invented text and a wrong logo: REMOVE that invented design and faithfully apply image 2 around the tub, with its normal cylindrical curvature, exact layout, exact imagery and typography. Black angular emblem with yellow STUPĒNU and white MEDUS, yellow small rosette, tiny Latvian flag; on left image of wooden plate honeycomb and honey bowl, broad horizontal yellow stripe and grey wood photo around back. Main label tagline exactly 'Ar mīlestību vākts Piebalgas pusē, Lejas Stupānu mājās'. Right text exactly 'Z/S \"Lejas-Stupāni\"' and 'Liezēres p., Madonas nov.' and 'PVD reģ. nr. 085941' and 'stupeni@inbox.lv'. Left stripe only small 'Neto', 'Izgatavots', 'Ieteicams līdz'. NO website address, NO extra slogans such as 'Īsts tas ir dabis' or 'No mūsu bitēm', NO invented text. Small accurate unreadable type at distance is preferable to invented text. Preserve image1 tub shape, rim, clear plastic, camera angle, honey, soft amber transmitted light and position. Return one complete isolated tub with genuine transparent background. Photographic label realism, NOT packaging redesign."
+    },
+    {
+      "savedPaths": [
+        "public/products/sunu-medus.png",
+        "public/products/sunu-medus.webp"
+      ],
+      "product": "Medus šūnās",
+      "sources": [
+        "public/photos/IMG_2472.JPG",
+        "public/brand/Etiketes_Stupenu_medus-visi_izmeri (1) (1).pdf"
+      ],
+      "supportingReference": "The corrected honey cutout was supplied as a lighting reference.",
+      "finalPrompt": "Use case: background-extraction. Edit target image1: isolate the actual clear plastic bucket of honeycomb and honey, remove hand and entire landscape background. Supporting insert image2: exact original printed wrap label artwork. Supporting lighting image3: match this photographic illumination and slightly elevated front camera angle only. Preserve the real shape, tall tapered plastic bucket, translucent ribbed snap lid, white carrying handle, actual pale honeycomb chunks visible ABOVE and below printed label, lower golden honey. Do not turn honeycomb into plain honey. Set the carrying handle naturally down at the sides instead of held up by the removed hand, so whole product is freestanding, perfectly upright. Accurately preserve/reapply the original image2 label with its curved photographic grey wood, honeycomb photo left, yellow horizontal stripe, black angular emblem, yellow STUPĒNU and white MEDUS, tiny rosette and flag, exact typography. No invented words or slogans or website. Main small tagline 'Ar mīlestību vākts Piebalgas pusē, Lejas Stupānu mājās'; right 'Z/S \"Lejas-Stupāni\"' 'Liezēres p., Madonas nov.' 'PVD reģ. nr. 085941' 'stupeni@inbox.lv'. Tiny accurate unreadable type is preferable to invented words. Natural warm amber transmitted light and convincing clear plastic edges. Centre entire bucket with modest padding in square transparent canvas. No floor or backdrop, no shadows outside object, no glass or metal lid. Realistic exact product asset, not a packaging redesign."
+    }
+  ]
+}
